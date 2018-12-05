@@ -1,0 +1,18 @@
+H:\>powershell .\windows.ps1
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-InitiatorPort.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-InitiatorId.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-Partition.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-maskingset.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-OffloadDataTransferSe
+tting.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-volume.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-Iscsiconnection.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\Get-Iscsisession.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\get-iscsitarget.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\get-service.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\get-netroute.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\get-netadapter.out
+writing to + C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110\get-netipaddress.out
+Getting System Event Log
+Getting Application Event Log
+Collection Done, Collection in +C:\Users\ADMINI~1\AppData\Local\Temp\3\infini_collection_120520180110120520180110.zip

@@ -1,0 +1,47 @@
+Script started on Wed Dec  5 13:10:58 2018
+]0;root@io-sales-01:/tmp[?1034h[root@io-sales-01 tmp]# ./linux.bash 
+working dir is /tmp/infini.collection.120518_131102
+/etc/modprobe.conf could not be found
+copying /proc/mdstat
+copying /sys/devices/pci0000:00 as _sys_devices_pci0000:00
+copying /etc/.*multipath.* as _etc_.multipath.
+copying /etc/.*tab as _etc_.tab
+copying /etc/iscsid.* as _etc_iscsid.
+copying _etc_modprobe.d /tmp/infini.collection.120518_131102
+copying _var_lib_iscsi /tmp/infini.collection.120518_131102
+copying _etc_iscsi /tmp/infini.collection.120518_131102
+copying _proc_scsi /tmp/infini.collection.120518_131102
+copying _sys_class /tmp/infini.collection.120518_131102
+copying _sys_module /tmp/infini.collection.120518_131102
+running vgdisplay -v
+running lvdisplay -v -all
+running pvdisplay -v
+running rpm -qa
+running dpkg --get-selections
+running systemctl --all
+running service --status-all
+running iscsiadm -m session
+running iscsiadm -m node
+running iscsiadm -m node -o show
+running echo show config | multipathd -k
+running echo show maps | multipathd -k
+running echo show topology | multipathd -k
+running echo show paths | multipathd -k
+running sg_map -x || true
+running fdisk -l
+running modinfo qla2xxx
+running modinfo qla4xxx
+running modinfo lpfc
+running modinfo fnic
+running modinfo bfa
+running netstat -na
+running netstat -rn
+cp: omitting directory '/var/log'
+cp: omitting directory '/var/log/sa'
+tar: Removing leading `/' from member names
+Log collection done - please send /tmp/infi.collection.120518_131102.tar.gz to infinidat.
+you may also delete the temporary folder /tmp/infini.collection.120518_131102
+]0;root@io-sales-01:/tmp[root@io-sales-01 tmp]# exit
+exit
+
+Script done on Wed Dec  5 13:11:32 2018

@@ -1,0 +1,49 @@
+Script started on December  5, 2018 01:11:58 PM IST
+root@t5220a:/tmp# ./solaris.bash 
+working dir is /tmp/infini.collection.120518_131202
+copying /etc/path_to_inst
+copying /etc/name_to_major
+copying /etc/driver_aliases
+copying /var/log/syslog
+copying /var/adm/messages
+copying _etc_driver_drv /tmp/infini.collection.120518_131202
+copying _kernel_drv /tmp/infini.collection.120518_131202
+copying _var_pkg /tmp/infini.collection.120518_131202
+running ls -la /dev
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev: No such file or directory
+running ls -la /dev/dsk
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev/dsk: No such file or directory
+running ls -la /dev/rdsk
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev/rdsk: No such file or directory
+running ls -la /dev/scsi/array_ctrl
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev/scsi/array_ctrl: No such file or directory
+running pkginfo -p
+running pkginfo -i
+running modinfo
+running fcinfo lu -v
+running fcinfo hba-port
+running cfgadm -lao
+running echo| format
+running kstat -c disk
+running mpathadm list lu
+running ifconfig -a
+running netstat -na
+running netstat -nr
+running iscsiadm list discovery
+running iscsiadm list target -v
+running iscsiadm list target -S
+running iscsiadm list target-param -v
+running iscsiadm list initiator-node
+running iscsiadm list discovery-address -v
+running iscsiadm list static-config
+running svcs -a
+running ls -la /dev/vx/dmp
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev/vx/dmp: No such file or directory
+running ls -la /dev/vx/rdmp
+./solaris.bash: line 51: /tmp/infini.collection.120518_131202/ls_-la_/dev/vx/rdmp: No such file or directory
+Log collection done - please send /tmp/infi.collection.120518_131202.tar.gz to infinidat.
+you may also delete the temporary folder /tmp/infini.collection.120518_131202
+root@t5220a:/tmp# exir[1D[Kt
+exit
+
+script done on December  5, 2018 01:13:36 PM IST
